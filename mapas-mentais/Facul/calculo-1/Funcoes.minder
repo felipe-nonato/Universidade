@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<minder version="1.14.0" parent-etag="3346288169" etag="3356217464">
+  <theme name="dark" label="Dark" index="-1"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="1" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="2" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="3" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="4" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="5" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="6" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="7" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="8" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+  </styles>
+  <drawarea x="-180.49334254061318" y="-71.752306066498591" scale="0.75"/>
+  <images/>
+  <nodes>
+    <node id="0" posx="826.99334254061318" posy="421.48137100790473" width="85" height="52" side="left" fold="true" treesize="52" layout="Manual" group="false">
+      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+      <nodename posx="844.99334254061318" posy="439.48137100790473" maxwidth="200">
+        <text data="Fun&#xE7;&#xF5;es"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="27" posx="793.43514551912881" posy="264.96741430217526" width="148" height="68" side="top" fold="false" treesize="924.77199300130178" color="#f37329" colorroot="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="135" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+          <nodename posx="811.43514551912881" posy="282.96741430217526" maxwidth="132.78662109375">
+            <text data="O dominio sempre &#xE9; os reais"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="524.00240626131631" posy="96.967414302175143" width="148" height="68" side="top" fold="false" treesize="148" color="#f37329" colorroot="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="542.00240626131631" posy="114.96741430217514" maxwidth="200">
+                <text data="     sen(x)&#10;[trigonometrica]"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="9" posx="725.67236882642032" posy="50.025275630300143" width="78" height="68" side="top" fold="false" treesize="673.46223958333212" color="#f6d32d" colorroot="true" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="743.67236882642032" posy="68.025275630300143" maxwidth="200">
+                <text data="ax + b&#10;[afim]"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="10" posx="351.47961980298282" posy="-141.12965194131425" width="204" height="82" side="top" fold="false" treesize="204.00000000000006" color="#f8e45c" colorroot="true" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="369.47961980298282" posy="-123.12965194131425" maxwidth="200">
+                    <text data="se a&gt;0, reta crescente&#10;&#10;se a&lt;0, reta decrescente"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="11" posx="576.10746811027298" posy="-128.43069767699137" width="197" height="68" side="top" fold="false" treesize="432.77722167968727" color="#f8e45c" colorroot="true" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="594.10746811027298" posy="-110.43069767699137" maxwidth="200">
+                    <text data="a = coeficiente angular&#10;b = coeficiente linear"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                  <nodes>
+                    <node id="12" posx="485.77751205558548" posy="-312.4306976769916" width="169" height="84" side="top" fold="false" treesize="169" color="#f8e45c" colorroot="true" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="181" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                      <nodename posx="503.77751205558548" posy="-294.4306976769916" maxwidth="180.5869140625">
+                        <text data="coeficiente angular define tudo sobre derivadas"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="13" posx="693.55473373527298" posy="-312.4306976769916" width="225" height="84" side="top" fold="false" treesize="225" color="#f8e45c" colorroot="true" layout="Manual" group="false">
+                      <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                      <nodename posx="711.55473373527298" posy="-294.4306976769916" maxwidth="200">
+                        <text data="coeficiente linear sempre &#xE9; o ponto que toca o eixo y, pois x &#xE9; igual a 0"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                  </nodes>
+                </node>
+                <node id="14" posx="827.94185938631495" posy="-128.98404240355376" width="197" height="66" side="top" fold="false" treesize="197" color="#f8e45c" colorroot="true" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="845.94185938631495" posy="-110.98404240355376" maxwidth="200">
+                    <text data="raiz da fun&#xE7;&#xE3;o = (-b/a)&#10;"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="6" posx="899.60832260246184" posy="115.23869522665439" width="120" height="68" side="top" fold="false" treesize="376.64329020182265" color="#f37329" colorroot="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="917.60832260246184" posy="133.23869522665439" maxwidth="200">
+                <text data="  ax&#xB2;+bx+c&#10;[quadratica]"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="16" posx="951.17433212394712" posy="-15.897942143137129" width="148" height="52" side="top" fold="false" treesize="148" color="#f37329" colorroot="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="969.17433212394712" posy="2.1020578568628707" maxwidth="200">
+                    <text data="a diferente de 0"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="18" posx="1079.2516128042851" posy="95.661139888112643" width="197" height="68" side="top" fold="false" treesize="197" color="#f37329" colorroot="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="1097.2516128042851" posy="113.66113988811264" maxwidth="200">
+                    <text data="depende do delta para o estudo do sinal"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="17" posx="1023.6329909781136" posy="240.56751195842571" width="213" height="70" side="top" fold="false" treesize="212.99999999999989" color="#f37329" colorroot="false" layout="Manual" group="false">
+                  <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+                  <nodename posx="1041.6329909781136" posy="258.56751195842571" maxwidth="200">
+                    <text data="{`c`} indica onde toca no eixo y"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="15" posx="609.47667994295648" posy="574.70721125855584" width="267" height="68" side="bottom" fold="false" treesize="267" color="#68b723" colorroot="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="239" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+          <nodename posx="627.47667994295648" posy="592.70721125855584" maxwidth="244.43497721354174">
+            <text data="A principal coisa de uma fun&#xE7;&#xE3;o &#xE9; o estudo do sinal desta fun&#xE7;&#xE3;o"/>
+          </nodename>
+          <nodenote></nodenote>
+        </node>
+        <node id="7" posx="972.28255762850381" posy="578.2050648555612" width="106" height="68" side="bottom" fold="false" treesize="657.39453125000034" color="#c6262e" colorroot="false" layout="Manual" group="false">
+          <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+          <nodename posx="990.28255762850381" posy="596.2050648555612" maxwidth="200">
+            <text data="p(x)/q(x)&#10;[racional]"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="19" posx="790.26929265454487" posy="740.68463842326855" width="211" height="68" side="bottom" fold="false" treesize="211" color="#c6262e" colorroot="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="808.26929265454487" posy="758.68463842326855" maxwidth="200">
+                <text data="dominio exlusivo com q(x) diferente de 0"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="20" posx="1029.5429742951703" posy="756.17153620972636" width="162" height="68" side="bottom" fold="false" treesize="162" color="#c6262e" colorroot="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="1047.5429742951703" posy="774.17153620972636" maxwidth="200">
+                <text data="encontrar a fun&#xE7;&#xE3;o equivalente"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="28" posx="1222.6638239045453" posy="746.2219105586862" width="225" height="148" side="bottom" fold="false" treesize="225" color="#c6262e" colorroot="false" layout="Manual" group="false">
+              <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
+              <nodename posx="1240.6638239045453" posy="764.2219105586862" maxwidth="200">
+                <text data="boa parte do estudo de limites &#xE9; baseado em fun&#xE7;&#xF5;es racionais, ja que apresenta restri&#xE7;&#xF5;es importantes e que necessita de simplifica&#xE7;&#xE3;o para saber a que valor esta tendendo"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+</minder>
