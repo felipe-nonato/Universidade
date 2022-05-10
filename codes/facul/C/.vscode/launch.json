@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${fileDirname}/",
+            "program": "${fileDirname}/ques-1",
             "args": [],
             "cwd": "${fileDirname}/"
         }
