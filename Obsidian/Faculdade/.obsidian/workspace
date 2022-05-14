@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "a26f6dda8904474e",
+    "type": "split",
+    "children": [
+      {
+        "id": "50d537a2c8478e6e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "monitoria/Matrizes - Identidade e inversa.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03b063292dd26c28",
+    "type": "split",
+    "children": [
+      {
+        "id": "53a1c632f36e61ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2453dfc42c4ebdcd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f7dbdec26d00337",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "escopo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225
+  },
+  "right": {
+    "id": "4f124436d167716c",
+    "type": "split",
+    "children": [
+      {
+        "id": "91a4f70f9f91c577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78cc1e07b7ef1a27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "monitoria/Matrizes - Identidade e inversa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "50d537a2c8478e6e",
+  "lastOpenFiles": [
+    "monitoria/Matrizes - Identidade e inversa.md",
+    "monitoria/Matrizes - Multiplicação.md",
+    "monitoria/Teste para monitoria.md",
+    "monitoria/Matrizes - Igualdade, Adição e Subtração.md",
+    "monitoria/Matrizes - Lei de Formação.md",
+    "monitoria/Matrizes - introdução.md",
+    "Cursos/Web/Hoisting.md",
+    "faculdade/monitoria/Teste para monitoria.md",
+    "faculdade/monitoria/Matrizes - Igualdade, Adição e Subtração.md",
+    "faculdade/monitoria/Matriz - Transposta, Simétrica e Antissimétrica.md"
+  ]
+}

@@ -1,0 +1,18 @@
+# Assuntos:
+- determinantes
+	- base: 
+		- [[Matrizes - introdução]]
+		- [[Matrizes - Lei de Formação]]
+		- [[Matriz - Transposta, Simétrica e Antissimétrica]]
+		- [[Matrizes - Igualdade, Adição e Subtração]]
+		- [[Matrizes - Multiplicação]]
+		- [[Matrizes - Identidade e inversa]]
+- sistema linear
+- trigonometria
+- geometria plana
+- geometria espacial
+- análise combinatória
+- probabilidade
+- estatística
+- mat. financeira
+- geometria analítica
