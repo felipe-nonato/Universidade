@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "monitoria/Matrizes - Identidade e inversa.md",
+            "file": "monitoria/Regra de chio.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "escopo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "monitoria/Matrizes - Identidade e inversa.md",
+                "file": "monitoria/Regra de chio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "50d537a2c8478e6e",
   "lastOpenFiles": [
-    "monitoria/Matrizes - Identidade e inversa.md",
+    "monitoria/Regra de chio.md",
     "monitoria/Matrizes - Multiplicação.md",
+    "monitoria/images/Captura de tela de 2022-05-13 21-42-27.png",
+    "monitoria/Matrizes - Identidade e inversa.md",
     "monitoria/Teste para monitoria.md",
     "monitoria/Matrizes - Igualdade, Adição e Subtração.md",
     "monitoria/Matrizes - Lei de Formação.md",
     "monitoria/Matrizes - introdução.md",
     "Cursos/Web/Hoisting.md",
-    "faculdade/monitoria/Teste para monitoria.md",
-    "faculdade/monitoria/Matrizes - Igualdade, Adição e Subtração.md",
-    "faculdade/monitoria/Matriz - Transposta, Simétrica e Antissimétrica.md"
+    "faculdade/monitoria/Teste para monitoria.md"
   ]
 }
