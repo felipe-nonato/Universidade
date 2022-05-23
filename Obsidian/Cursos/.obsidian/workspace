@@ -7,8 +7,12 @@
         "id": "989bf998618f72ab",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Web/Função vs Objeto.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/Função vs Objeto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +88,7 @@
     "collapsed": true
   },
   "active": "989bf998618f72ab",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Web/Função vs Objeto.md"
+  ]
 }
