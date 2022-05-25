@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "monitoria/Teste para monitoria.md",
+            "file": "P2/Educação Ambiental/O papel e trajetoria da E.A. no Brasil e no mundo.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225
+    "width": 198,
+    "collapsed": true
   },
   "right": {
     "id": "4f124436d167716c",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "monitoria/Teste para monitoria.md",
+                "file": "P2/Educação Ambiental/O papel e trajetoria da E.A. no Brasil e no mundo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +90,7 @@
   },
   "active": "50d537a2c8478e6e",
   "lastOpenFiles": [
+    "P2/Educação Ambiental/O papel e trajetoria da E.A. no Brasil e no mundo.md",
     "monitoria/Teste para monitoria.md",
     "monitoria/Regra de chio.md",
     "monitoria/Matrizes - Multiplicação.md",
@@ -97,7 +99,6 @@
     "monitoria/Matrizes - Igualdade, Adição e Subtração.md",
     "monitoria/Matrizes - Lei de Formação.md",
     "monitoria/Matrizes - introdução.md",
-    "Cursos/Web/Hoisting.md",
-    "faculdade/monitoria/Teste para monitoria.md"
+    "Cursos/Web/Hoisting.md"
   ]
 }
