@@ -13,21 +13,11 @@ int main()
     printf("número de colunas: ");
     scanf("%d",&c);
 
-    int m[l][c];
-    srand(time(0));
-    printf("\n\nMatriz: \n\n");
-  
-    for (int i=0; i<l; i++){
-        for (int j=0; j<c; j++){
-            m[i][j]=rand()%10;
-            printf("%d\t", m[i][j]);    
-    }
-    printf("\n");
-    }
+    int matriz[l][c];
+    int result,lin,col;
 
-    for (int i=0; i<5; i++){
-           
-    }
+    gerarMatriz(l,c,matriz);
+    menor(l,c,matriz,&result,&lin,&col);
 
     return 0;
 }
