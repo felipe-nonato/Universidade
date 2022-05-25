@@ -1,7 +1,5 @@
 #include "./ques-2.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int main(void) {
   //lendo número de doces
