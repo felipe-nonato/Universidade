@@ -23,5 +23,6 @@ int main(void) {
   }
 
   maisBarato(vezes,&doces[0]);
+  printf("Foram comprados %dg de doce por R$%.2f\n",pesoTotal(vezes,&doces[0]), gastoTotal(vezes,&doces[0]));
   return 0;
 }

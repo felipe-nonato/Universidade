@@ -6,7 +6,7 @@ float precoUnitario(int peso, float preco){
     return preco_unitario;
 }
 
-void maisBarato(int vezes,doce doces[vezes]){
+void maisBarato(int vezes,doce doces[0]){
     float valueCheap; 
     int moreCheap;
     for(int i = 0; i<vezes; i++){
@@ -19,4 +19,20 @@ void maisBarato(int vezes,doce doces[vezes]){
         }
     }
     printf("\nProduto mais barato: Doce %d, R$%.2f/kg\n", moreCheap, valueCheap);
+}
+
+int pesoTotal(int vezes,doce doces[0]){ 
+   int soma = 0;
+    for(int i = 0; i<vezes; i++){
+            soma += doces[i].peso;
+    }
+    return soma;
+}
+
+float gastoTotal(int vezes,doce doces[0]){ 
+    float soma = 0;
+    for(int i = 0; i<vezes; i++){
+            soma += doces[i].preco;
+    }
+    return soma;
 }

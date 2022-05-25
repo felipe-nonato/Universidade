@@ -12,6 +12,12 @@ typedef struct {
 //recebe peso e preco do doce calcula o peso unitario
 float precoUnitario(int peso, float preco);
 
-//recebe: o tanto de vezes que ele precisa verificar qual o mais barato, e uma struct doce para acessar seus atributos.
-void maisBarato(int vezes,doce doces[vezes]);
+//recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: void, printando na tela qual mais barato.
+void maisBarato(int vezes,doce doces[0]);
+
+//recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: um int (peso total dos doces).
+int pesoTotal(int vezes,doce doces[0]);
+
+//recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: um float (total gasto).
+float gastoTotal(int vezes,doce doces[0]);
 
