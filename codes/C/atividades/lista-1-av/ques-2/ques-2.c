@@ -13,6 +13,7 @@ int main(void) {
   doce doces[vezes];
   for(int i = 0; i<vezes;i++){
     printf("Doce %d:\n",(i+1));
+    doces[i].numero = i+1;
     printf("Peso (g): ");
     scanf("%d",&doces[i].peso);
     printf("Preço (R$): ");
@@ -21,5 +22,6 @@ int main(void) {
     printf("Preço unitário = R$%.2f/kg\n",doces[i].preco_u);
   }
 
+  maisBarato(vezes,&doces[0]);
   return 0;
 }

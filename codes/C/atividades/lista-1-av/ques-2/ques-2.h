@@ -1,11 +1,3 @@
-// functions
-
-//recebe peso e preco do doce calcula o peso unitario
-float precoUnitario(int peso, float preco);
-
-//recebe: o tanto de vezes que ele precisa verificar qual o mais barato, o número do doce {doce 1, doce 2}, valor unitario corresponde {R$50,00}
-void maisBarato(int vezes,int numero[vezes], float unitario[vezes]);
-
 // structs
 typedef struct {
   int numero;
@@ -13,3 +5,13 @@ typedef struct {
   float preco;
   float preco_u;
 }doce;
+
+
+//----------------------------- functions -----------------------------
+
+//recebe peso e preco do doce calcula o peso unitario
+float precoUnitario(int peso, float preco);
+
+//recebe: o tanto de vezes que ele precisa verificar qual o mais barato, e uma struct doce para acessar seus atributos.
+void maisBarato(int vezes,doce doces[vezes]);
+

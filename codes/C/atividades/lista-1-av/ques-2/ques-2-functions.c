@@ -2,22 +2,21 @@
 #include "./ques-2.h"
 
 float precoUnitario(int peso, float preco){
-    float peso_kg = peso/1000;
-    float preco_unitario = preco/peso_kg;
+    float preco_unitario = (preco/peso)*1000;
     return preco_unitario;
 }
 
-void maisBarato(int vezes,int numero[vezes], float unitario[vezes]){
+void maisBarato(int vezes,doce doces[vezes]){
     float valueCheap; 
     int moreCheap;
     for(int i = 0; i<vezes; i++){
         if(i==0){
-            valueCheap = unitario[i];
-            moreCheap = numero[i];
-        }else if(unitario[i]<=valueCheap){
-            valueCheap = unitario[i];
-            moreCheap = numero[i];
+            valueCheap = doces[i].preco_u;
+            moreCheap = doces[i].numero;
+        }else if(doces[i].preco_u<=valueCheap){
+            valueCheap = doces[i].preco_u;
+            moreCheap = doces[i].numero;
         }
     }
-    printf("Produto mais barato: Doce %d, R$%.2f/kg", moreCheap, valueCheap);
+    printf("\nProduto mais barato: Doce %d, R$%.2f/kg\n", moreCheap, valueCheap);
 }
