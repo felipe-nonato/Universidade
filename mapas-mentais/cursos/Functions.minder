@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<minder version="1.14.0" parent-etag="4151782420" etag="1518502111">
+<minder version="1.14.0" parent-etag="4051820974" etag="4151782420">
   <theme name="dark" label="Escuro" index="-1"/>
   <styles>
     <style level="0" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
@@ -14,40 +14,40 @@
     <style level="9" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
     <style level="10" isset="true" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
   </styles>
-  <drawarea x="-658.89807560748704" y="-230.29474811654137" scale="0.75"/>
+  <drawarea x="-710.92932560748704" y="-235.45099811654137" scale="0.75"/>
   <images/>
   <nodes>
-    <node id="0" posx="1115.3980756074934" posy="607.29474811654109" width="103" height="57" side="left" fold="false" treesize="135" layout="Horizontal" group="false">
+    <node id="0" posx="1167.4293256074934" posy="612.45099811654109" width="103" height="57" side="left" fold="false" treesize="135" layout="Horizontal" group="false">
       <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-      <nodename posx="1133.3980756074934" posy="625.29474811654109" maxwidth="200">
+      <nodename posx="1185.4293256074934" posy="630.45099811654109" maxwidth="200">
         <text data="Functions"/>
       </nodename>
       <nodenote></nodenote>
       <nodes>
-        <node id="3" posx="918.39807560749182" posy="607.29474811654109" width="97" height="57" side="left" fold="false" treesize="135" color="#f37329" colorroot="false" layout="Horizontal" group="false">
+        <node id="3" posx="970.42932560749182" posy="612.45099811654109" width="97" height="57" side="left" fold="false" treesize="135" color="#f37329" colorroot="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-          <nodename posx="936.39807560749182" posy="625.29474811654109" maxwidth="200">
+          <nodename posx="988.42932560749182" posy="630.45099811654109" maxwidth="200">
             <text data="Variaveis"/>
           </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="4" posx="603.39807560749068" posy="568.29474811654086" width="215" height="78" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
+            <node id="4" posx="655.42932560749068" posy="573.45099811654086" width="215" height="78" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-              <nodename posx="621.39807560749068" posy="586.29474811654086" maxwidth="200">
+              <nodename posx="673.42932560749068" posy="591.45099811654086" maxwidth="200">
                 <text data="&#xC9; possivel colocar fun&#xE7;&#xF5;es dentro de variaveis"/>
               </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="5" posx="341.39807560749068" posy="578.79474811654086" width="162" height="57" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
+                <node id="5" posx="393.42932560749068" posy="583.95099811654086" width="162" height="57" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
                   <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-                  <nodename posx="359.39807560749068" posy="596.79474811654086" maxwidth="200">
+                  <nodename posx="411.42932560749068" posy="601.95099811654086" maxwidth="200">
                     <text data="fun&#xE7;&#xF5;es anonimas"/>
                   </nodename>
                   <nodenote></nodenote>
                   <nodes>
-                    <node id="7" posx="12.398075607490682" posy="568.29474811654086" width="229" height="78" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
+                    <node id="7" posx="64.429325607490682" posy="573.45099811654086" width="229" height="78" side="left" fold="false" treesize="78" color="#f37329" colorroot="false" layout="Horizontal" group="false">
                       <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-                      <nodename posx="30.398075607490682" posy="586.29474811654086" maxwidth="200">
+                      <nodename posx="82.429325607490682" posy="591.45099811654086" maxwidth="200">
                         <text data="n&#xE3;o precisa passar nome na fun&#xE7;&#xE3;o"/>
                       </nodename>
                       <nodenote></nodenote>
@@ -56,32 +56,32 @@
                 </node>
               </nodes>
             </node>
-            <node id="6" posx="414.39807560749068" posy="646.29474811654063" width="404" height="57" side="left" fold="false" treesize="57" color="#f37329" colorroot="false" layout="Horizontal" group="false">
+            <node id="6" posx="466.42932560749068" posy="651.45099811654063" width="404" height="57" side="left" fold="false" treesize="57" color="#f37329" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="369" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-              <nodename posx="432.39807560749068" posy="664.29474811654063" maxwidth="381.61369323730469">
+              <nodename posx="484.42932560749068" posy="669.45099811654063" maxwidth="381.61369323730469">
                 <text data="`cont soma = function (a,b){ return a+b }`"/>
               </nodename>
               <nodenote></nodenote>
             </node>
           </nodes>
         </node>
-        <node id="1" posx="1318.3980756074911" posy="607.29474811654109" width="77" height="57" side="right" fold="false" treesize="114" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+        <node id="1" posx="1370.4293256074911" posy="612.45099811654109" width="77" height="57" side="right" fold="false" treesize="114" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-          <nodename posx="1336.3980756074911" posy="625.29474811654109" maxwidth="200">
+          <nodename posx="1388.4293256074911" posy="630.45099811654109" maxwidth="200">
             <text data="arrow"/>
           </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="2" posx="1495.3980756074916" posy="578.79474811654086" width="202" height="57" side="right" fold="false" treesize="57" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+            <node id="2" posx="1547.4293256074916" posy="583.95099811654086" width="202" height="57" side="right" fold="false" treesize="57" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-              <nodename posx="1513.3980756074916" posy="596.79474811654086" maxwidth="200">
+              <nodename posx="1565.4293256074916" posy="601.95099811654086" maxwidth="200">
                 <text data="forma mais simplificada"/>
               </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="8" posx="1495.3980756074916" posy="635.79474811654063" width="273" height="57" side="right" fold="false" treesize="57" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+            <node id="8" posx="1547.4293256074916" posy="640.95099811654063" width="273" height="57" side="right" fold="false" treesize="57" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="244" nodeborderwidth="4" nodefill="true" nodemargin="8" nodepadding="10" nodefont="Ubuntu Mono 11" nodemarkup="true"/>
-              <nodename posx="1513.3980756074916" posy="653.79474811654063" maxwidth="252.50531005859375">
+              <nodename posx="1565.4293256074916" posy="658.95099811654063" maxwidth="252.50531005859375">
                 <text data="`const soma = (a,b) =&gt; a+b` "/>
               </nodename>
               <nodenote></nodenote>
