@@ -1,4 +1,6 @@
-#include "./ques-1.h"
+// ------------ QUESTÃO 1 ------------
+
+#include "./head.h"
 
 int somaPrimos(int x,int y){
   int soma = 0;

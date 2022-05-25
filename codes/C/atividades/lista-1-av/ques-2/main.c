@@ -1,4 +1,6 @@
-#include "./ques-2.h"
+// ------------ QUESTÃO 2 ------------
+
+#include "./head.h"
 #include <stdio.h>
 
 int main(void) {

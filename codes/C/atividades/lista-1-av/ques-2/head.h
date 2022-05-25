@@ -1,3 +1,5 @@
+// ------------ QUESTÃO 3 ------------
+
 // structs
 typedef struct {
   int numero;
@@ -13,11 +15,11 @@ typedef struct {
 float precoUnitario(int peso, float preco);
 
 //recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: void, printando na tela qual mais barato.
-void maisBarato(int vezes,doce doces[0]);
+void maisBarato(int vezes,doce doces[vezes]);
 
 //recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: um int (peso total dos doces).
-int pesoTotal(int vezes,doce doces[0]);
+int pesoTotal(int vezes,doce doces[vezes]);
 
 //recebe: quantos doces tem, e uma struct doce para acessar seus atributos. Retorna: um float (total gasto).
-float gastoTotal(int vezes,doce doces[0]);
+float gastoTotal(int vezes,doce doces[vezes]);
 

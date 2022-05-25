@@ -1,5 +1,7 @@
+// ------------ QUESTÃO 1 ------------
+
 #include <stdio.h>
-#include "./ques-1.h"
+#include "./head.h"
 
 int main(void) {
   // declarando e lendo variaveis
