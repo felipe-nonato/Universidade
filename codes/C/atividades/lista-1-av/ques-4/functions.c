@@ -22,24 +22,21 @@ void isValid(int tamanho, char str[tamanho]){
     for (int i = 0; i<3;i++){
         for (int j = 0; j<3;j++){
             if (i==0 && j == 0){
-                
+                maiores[i] = groups[i][j];
+            }else if(i==1 && j == 0){
+                maiores[i] = groups[i][j];
+            }else if(i==2 && j == 0){
+                maiores[i] = groups[i][j];
+            }else if (maiores[i]<=groups[i][j]){
+                maiores[i] = groups[i][j];
             }
+            
         }
     }
-
-    // for (int i=0; i<3; i++){
-    //         for (int j=0; j<3; j++){
-    //             printf("%d\t", groups[i][j]);
-    //         }
-    //         printf("\n");
-    //     }
-}
-
-int maior(int x, int y){
-    if (x>=y){
-        return x;
-    }
-    else{
-        return y;
-    }
+    int soma = 0;
+    for (int i=0; i<3; i++){
+            soma += maiores[i];
+        }
+    if((str[12]-'0') == soma%10){printf("VALIDO");}
+    else{printf("INVALIDO");}
 }
