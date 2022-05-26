@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/atividades/lista-1-av/ques-3",
-      "program": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/atividades/lista-1-av/ques-3/build/Debug/outDebug",
+      "cwd": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/atividades/lista-1-av/ques-4",
+      "program": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/atividades/lista-1-av/ques-4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
