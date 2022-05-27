@@ -38,8 +38,7 @@ void verificaMagico(int l,int m[l][l]){
     for(int i =0; i<l;i++){
         if(somaColunas[i]==somaLinhas[i]){
             teste++;
-             if(teste==l){num = somaColunas[i];}
-            // printf("deu certo!\n%d\n%d\n%d\n",*somaColunas,*somaLinhas,teste);
+            if(teste==l){num = somaColunas[i];}
         }
     }
     if(somaDiagonalP==num && somaDiagonalS==num){
