@@ -2,5 +2,6 @@
 
 typedef struct
 {
-    /* data */
+    int matricula;
+    int media;
 }Taluno;
