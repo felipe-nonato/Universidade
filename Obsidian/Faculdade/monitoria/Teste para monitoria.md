@@ -8,11 +8,11 @@
 		- [[Matrizes - Multiplicação]]
 		- [[Matrizes - Identidade e inversa]]
 - [x] sistema linear
-- [ ] trigonometria
-- [ ] geometria plana
-- [ ] geometria espacial
-- [ ] análise combinatória
-- [ ] probabilidade
-- [ ] estatística
+- [x] trigonometria
+- [x] geometria plana
+- [x] geometria espacial
+- [x] análise combinatória
+- [x] probabilidade
+- [x] estatística
 - [ ] mat. financeira
 - [ ] geometria analítica

@@ -9,6 +9,8 @@ int main()
 {
     int tamanho = 13;
     char str[] = "000.000.000-0";
+    char* formato_1 = ".";
+    char* formato_2 = "-";
     char* final = "FIM";
     while(strcmp(str,final)!=0){
         printf("\n\nEscreva o CPF/CNPJ para verificar se é valido: ");
@@ -16,7 +18,7 @@ int main()
         if(strcmp(str,final)==0){
             break;
         }
-        isValid(tamanho, str);
+        isValid(tamanho, str,formato_1[0],formato_2[0]);
     }
     return 0;
 }
