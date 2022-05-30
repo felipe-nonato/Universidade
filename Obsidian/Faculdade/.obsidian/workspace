@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "monitoria/Matrizes - Multiplicação.md",
+            "file": "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "monitoria/Matrizes - Multiplicação.md",
+                "file": "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "50d537a2c8478e6e",
   "lastOpenFiles": [
+    "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
+    "P2/sources/QQD17Areadefiguras.pdf",
     "monitoria/Matrizes - Multiplicação.md",
     "monitoria/Regra de chio.md",
     "monitoria/Matriz - Transposta, Simétrica e Antissimétrica.md",
@@ -96,8 +98,6 @@
     "monitoria/Geometria Plana.md",
     "P2/Calculo/Derivada.md",
     "P2/Educação Ambiental/O papel e trajetoria da E.A. no Brasil e no mundo.md",
-    "monitoria/images/Captura de tela de 2022-05-13 21-42-27.png",
-    "monitoria/Matrizes - Identidade e inversa.md",
-    "monitoria/Matrizes - Igualdade, Adição e Subtração.md"
+    "monitoria/images/Captura de tela de 2022-05-13 21-42-27.png"
   ]
 }

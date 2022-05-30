@@ -6,4 +6,6 @@ typedef struct
     int media;
 }Taluno;
 
-void lerMatriz (int vezes, Taluno alunos[vezes]);
+void ler(int vezes, Taluno alunos[vezes]);
+
+void comparar(int vezes, Taluno alunos[vezes]);

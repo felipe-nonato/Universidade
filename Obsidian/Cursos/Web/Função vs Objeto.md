@@ -1,3 +1,11 @@
-A classe é criada atraves de uma função, e suas instacias são objetos.
+- Como funciona os objetos e classes em JS?
+	
+	De forma simples e direta, o javascript se utiliza de funções por baixo dos panos para realizar a orientação a objetos.
 
-- [ ] Rever a aula e tentar pesquisar sobre
+- O que são objetos?
+	
+	São grupos aninhados de chave/valor. 
+
+- O que é contexto lexico?
+	
+	É o escopo da chave ou variavel que há dentro da função ou de um objeto.

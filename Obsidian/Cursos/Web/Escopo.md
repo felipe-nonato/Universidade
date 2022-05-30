@@ -10,5 +10,6 @@
 	→ Objeto global que define toda janela visivel do navegador.
 	→ Toda variavel criada dentro do console do navegador estara dentro de window.
 
+- Existe escopo quando se trata de objetos tbm!!
 
 - FUJA DO ESCOPO GLOBAL!
