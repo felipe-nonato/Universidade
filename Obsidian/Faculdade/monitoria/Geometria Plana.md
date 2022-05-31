@@ -1,0 +1,1 @@
+![[QQD17Areadefiguras.pdf]]

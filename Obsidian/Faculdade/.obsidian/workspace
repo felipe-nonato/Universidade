@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "a26f6dda8904474e",
+    "type": "split",
+    "children": [
+      {
+        "id": "50d537a2c8478e6e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03b063292dd26c28",
+    "type": "split",
+    "children": [
+      {
+        "id": "53a1c632f36e61ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2453dfc42c4ebdcd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f7dbdec26d00337",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 198,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4f124436d167716c",
+    "type": "split",
+    "children": [
+      {
+        "id": "91a4f70f9f91c577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78cc1e07b7ef1a27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "50d537a2c8478e6e",
+  "lastOpenFiles": [
+    "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
+    "P2/sources/QQD17Areadefiguras.pdf",
+    "monitoria/Matrizes - Multiplicação.md",
+    "monitoria/Regra de chio.md",
+    "monitoria/Matriz - Transposta, Simétrica e Antissimétrica.md",
+    "monitoria/Teste para monitoria.md",
+    "monitoria/Geometria Plana.md"
+  ]
+}
