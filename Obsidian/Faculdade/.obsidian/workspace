@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
+            "file": "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198
+    "width": 198,
+    "collapsed": true
   },
   "right": {
     "id": "4f124436d167716c",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
+                "file": "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "50d537a2c8478e6e",
   "lastOpenFiles": [
+    "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md",
     "P2/sources/QQD17Areadefiguras.pdf",
     "monitoria/Matrizes - Multiplicação.md",
     "monitoria/Regra de chio.md",
     "monitoria/Matriz - Transposta, Simétrica e Antissimétrica.md",
     "monitoria/Teste para monitoria.md",
-    "monitoria/Geometria Plana.md",
-    "P2/Calculo/Derivada.md",
-    "P2/Educação Ambiental/O papel e trajetoria da E.A. no Brasil e no mundo.md",
-    "monitoria/images/Captura de tela de 2022-05-13 21-42-27.png"
+    "monitoria/Geometria Plana.md"
   ]
 }

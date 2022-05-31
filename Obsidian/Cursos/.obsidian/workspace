@@ -7,8 +7,12 @@
         "id": "947f6bfa0425d18d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Web/Destruction.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "304454e17fb1504d",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/Destruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +90,7 @@
   },
   "active": "947f6bfa0425d18d",
   "lastOpenFiles": [
+    "Web/Destruction.md",
     "Web/Função vs Objeto.md",
     "Web/Escopo.md",
     "Web/Hoisting.md"

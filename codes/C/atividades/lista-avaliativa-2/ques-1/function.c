@@ -19,6 +19,12 @@ void comparar(int vezes, Taluno alunos[vezes]){
               if(i == 0){
                   matricula_maior = alunos[i].matricula;
                   media_maior = alunos[i].media;
-              }else if(media_maior<)
+              }else if(media_maior==alunos[i].media){
+                  
+                  }
+                else if(media_maior<alunos[i].media){
+                matricula_maior = alunos[i].matricula;
+                media_maior = alunos[i].media;
+            }
         }
 }
