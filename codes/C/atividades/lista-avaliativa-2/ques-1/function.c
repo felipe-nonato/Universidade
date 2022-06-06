@@ -13,16 +13,18 @@ void ler (int vezes, Taluno alunos[vezes]){
 }
 
 void comparar(int vezes, Taluno alunos[vezes]){
-    int maiores = (int) malloc(vezes*sizeof(int));
     ordena(vezes,alunos);
 
-    for (int i=0; i<vezes; i++){
-        for (int j=i+1; j<vezes; j++){
-            if(alunos[i].media == alunos[j].media){
-
-            }
+    for (int i = 0; i<vezes;i++){
+        if(i==0){
+            printf("%d ", alunos[i].matricula);
         }
-    printf("%d ", maiores);
+        if(alunos[i].media == alunos[i+1].media){
+            printf("%d ", alunos[i+1].matricula);
+        }else{
+            break;
+        }
+    }
 }
 
 
@@ -31,7 +33,7 @@ void ordena(int vezes,Taluno vet[vezes]){
     
     for(i=0; i<vezes; i++){
         for(j=i+1; j<vezes; j++){
-            if( vet[i].media > vet[j].media){
+            if( vet[i].media < vet[j].media){
                 aux = vet[i].media;
                 aux2 = vet[i].matricula;
                 vet[i].media = vet[j].media;
@@ -41,8 +43,8 @@ void ordena(int vezes,Taluno vet[vezes]){
             }
         }
     }
-    for(int i = 0;i<vezes;i++){
-        printf("\n%d ",vet[i].matricula);
-        printf("%d\n",vet[i].media);
-    }
+    // for(int i = 0;i<vezes;i++){
+    //     printf("\n%d ",vet[i].matricula);
+    //     printf("%d\n",vet[i].media);
+    // }
 }
