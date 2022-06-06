@@ -9,6 +9,7 @@ int main()
     int vezes;
     scanf("%d",&vezes);
     Taluno alunos[vezes];
-    lerMatriz(vezes, alunos);
+    ler(vezes, alunos);
+    comparar(vezes,alunos);
     return 0;
 }
