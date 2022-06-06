@@ -19,7 +19,6 @@ void comparar(int vezes, Taluno alunos[vezes]){
     for (int i=0; i<vezes; i++){
         for (int j=i+1; j<vezes; j++){
             if(alunos[i].media == alunos[j].media){
-                
 
             }
         }
