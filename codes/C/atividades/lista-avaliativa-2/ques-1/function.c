@@ -17,10 +17,10 @@ void comparar(int vezes, Taluno alunos[vezes]){
 
     for (int i = 0; i<vezes;i++){
         if(i==0){
-            printf("%d ", alunos[i].matricula);
+            printf("%d", alunos[i].matricula);
         }
         if(alunos[i].media == alunos[i+1].media){
-            printf("%d ", alunos[i+1].matricula);
+            printf(" %d ", alunos[i+1].matricula);
         }else{
             break;
         }
@@ -43,8 +43,4 @@ void ordena(int vezes,Taluno vet[vezes]){
             }
         }
     }
-    // for(int i = 0;i<vezes;i++){
-    //     printf("\n%d ",vet[i].matricula);
-    //     printf("%d\n",vet[i].media);
-    // }
 }
