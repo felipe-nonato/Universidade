@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "d:/FELIPE/Faculdade/codes/C/atividades/lista-avaliativa-2/ques-2",
-      "program": "d:/FELIPE/Faculdade/codes/C/atividades/lista-avaliativa-2/ques-2/build/Debug/outDebug",
+      "cwd": "d:/FELIPE/Faculdade/codes/C/atividades/lista-avaliativa-2/ques-2e3",
+      "program": "d:/FELIPE/Faculdade/codes/C/atividades/lista-avaliativa-2/ques-2e3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

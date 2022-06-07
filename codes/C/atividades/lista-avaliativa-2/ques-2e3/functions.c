@@ -2,20 +2,19 @@
 #include <stdio.h>
 
 
-void recebe_retangulo(Tretangulo retangulo){
-
+void recebe_retangulo(Tretangulo *retangulo){
     printf("Ponto v1 (retangulo): ");
-    scanf("%d", &retangulo.v1.x);
-    scanf("%d", &retangulo.v1.y);
+    scanf("%d", &retangulo->v1.x);
+    scanf("%d", &retangulo->v1.y);
     printf("Ponto v2 (retangulo): ");
-    scanf("%d", &retangulo.v2.x);
-    scanf("%d", &retangulo.v2.y);
+    scanf("%d", &retangulo->v2.x);
+    scanf("%d", &retangulo->v2.y);
 }
 
-void recebe_ponto(struct Ponto ponto){
+void recebe_ponto(struct Ponto *ponto){
     printf("Ponto: ");
-    scanf("%d", &ponto.x);
-    scanf("%d", &ponto.y);
+    scanf("%d", &ponto->x);
+    scanf("%d", &ponto->y);
 }
 
 void dentro(Tretangulo retangulo,struct Ponto ponto){
