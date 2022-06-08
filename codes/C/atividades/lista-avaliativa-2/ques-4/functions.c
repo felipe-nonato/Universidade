@@ -3,16 +3,16 @@
 #include <string.h>
 #include "head.h"
 
-void adicionarLivros(int vezes, Livro livros[]){
+void adicionarLivros(int vezes, Livro livros[vezes]){
     printf("Adicionando livros:\n");
     printf("\n----------------------------------\n");
     for(short int i = 1; i<=vezes;i++){
         printf("Titulo do livro [%d]: ", i);
-        livros[i].titulo = receberString();
+        scanf(" %49[^\n]", livros[i].titulo);
         printf("Autor do livro [%d]: ", i);
-        livros[i].autor = receberString();
+        scanf(" %49[^\n]", livros[i].autor);
         printf("Preço do livro [%d]: ", i);
-        livros[i].preco = receberPreco();
+        scanf("%f", &livros[i].preco);
         printf("\n-------------------------------\n");
 
     }
@@ -20,7 +20,7 @@ void adicionarLivros(int vezes, Livro livros[]){
     printf("\n----------------------------------\n");
 }
 
-/* void mediaPreco(int vezes, Livro livros[]){
+void mediaPreco(int vezes, Livro livros[vezes]){
     float soma_preco;
     float media;
     for(short int i = 1; i<=vezes;i++){
@@ -28,22 +28,11 @@ void adicionarLivros(int vezes, Livro livros[]){
     }
     media = soma_preco/vezes;
     printf("A media dos preços dos livros é: %f",media);
-} */
-
-float receberPreco(){
-    float preco;
-    scanf("%f", &preco);
-    return preco;
 }
 
-char *receberString(){
-    char *nome = (char*)malloc(50*sizeof(char));
-    scanf(" %49[^\n]", nome);
-    return nome;
-}
 
-void imprimirVetor(int vezes, Livro livros[]){
-    for(int i = 0; i<vezes;i++){
+void imprimirVetor(int vezes, Livro livros[vezes]){
+    for(int i = 1; i<=vezes;i++){
         printf("Titulo do livro [%d]: ", i);
         printf("%s",livros[i].titulo);
         printf("Autor do livro [%d]: ", i);

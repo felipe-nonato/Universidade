@@ -8,12 +8,11 @@ typedef struct
 }Livro;
 
 
-// -----------
+// --------------------------------------------------------------------------------
 
 
 // Functions()
 
-void adicionarLivros(int vezes, Livro livros[]);
-void imprimirVetor(int vezes, Livro livros[]);
-char *receberString();
-float receberPreco();
+void adicionarLivros(int vezes, Livro livros[vezes]);
+void mediaPreco(int vezes, Livro livros[vezes]);
+void imprimirVetor(int vezes, Livro livros[vezes]);
