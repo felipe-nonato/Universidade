@@ -5,13 +5,12 @@
 int main()
 {   
     // interface inicial
-    // printf("");
+    printf("Escolha a função que você deseja realizar: ");
     int vezes;
-    printf("Q/uantos livros você deseja adicionar? R = ");
+    printf("Quantos livros você deseja adicionar? R = ");
     scanf("%d",&vezes);
     Livro *livros = (Livro*)malloc(vezes*sizeof(Livro));
     adicionarLivros(vezes,livros);
-    imprimirVetor(vezes,livros);
     mediaPreco(vezes,livros);
     return 0;
 }

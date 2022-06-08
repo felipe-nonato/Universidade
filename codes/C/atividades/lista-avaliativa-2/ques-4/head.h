@@ -20,5 +20,3 @@ void adicionarLivros(int vezes, Livro livros[vezes]);
 void mediaPreco(int vezes, Livro livros[vezes]);
 //Recebe o numero de livros e um vetor com os livros, e imprime o vetor mostrando os livros.
 void imprimirVetor(int vezes, Livro livros[vezes]);
-//Recebe a media de preços, o numero de livros e um vetor com os livros, e retorna o número dos .
-void acimaMedia(float media, int vezes, Livro livros[vezes]);
