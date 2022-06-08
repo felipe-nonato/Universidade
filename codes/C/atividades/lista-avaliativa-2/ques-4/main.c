@@ -11,7 +11,7 @@ int main()
     scanf("%d",&vezes);
     Livro *livros = (Livro*)malloc(vezes*sizeof(Livro));
     adicionarLivros(vezes,livros);
-    printf("%d",vezes);
     imprimirVetor(vezes,livros);
+    mediaPreco(vezes,livros);
     return 0;
 }
