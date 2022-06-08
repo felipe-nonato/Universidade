@@ -1,18 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 #include "head.h"
 
-void adicionarLivros(int vezes, Livro livros[vezes]){
-    printf("Adicionando livros:\n");
-    printf("\n----------------------------------\n");
+void adicionarLivros(int vezes, Livro *livros){
+    printf("\nAdicionando livros:\n");
+    printf("----------------------------------\n\n");
     for(short int i = 1; i<=vezes;i++){
         printf("Titulo do livro [%d]: ", i);
-        scanf(" %49[^\n]", livros[i].titulo);
+        scanf("%s", livros[i]->titulo);
         printf("Autor do livro [%d]: ", i);
-        scanf(" %49[^\n]", livros[i].autor);
+        scanf("%s", livros[i]->autor);
         printf("Preço do livro [%d]: ", i);
-        scanf("%f", &livros[i].preco);
+        scanf("%f", &livros[i]->preco);
         printf("\n-------------------------------\n");
 
     }

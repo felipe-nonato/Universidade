@@ -13,6 +13,6 @@ typedef struct
 
 // Functions()
 
-void adicionarLivros(int vezes, Livro livros[vezes]);
-void mediaPreco(int vezes, Livro livros[vezes]);
-void imprimirVetor(int vezes, Livro livros[vezes]);
+void adicionarLivros(int vezes, Livro *livros);
+void mediaPreco(int vezes, Livro *livros);
+void imprimirVetor(int vezes, Livro *livros);
