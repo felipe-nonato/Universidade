@@ -3,7 +3,7 @@
 #include <string.h>
 #include "head.h"
 
-void adicionarLivros(unsigned short int vezes, Livro livros[vezes]){
+void adicionarLivros(int vezes, Livro livros[]){
     printf("Adicionando livros:\n");
     printf("\n----------------------------------\n");
     for(short int i = 1; i<=vezes;i++){
@@ -20,6 +20,16 @@ void adicionarLivros(unsigned short int vezes, Livro livros[vezes]){
     printf("\n----------------------------------\n");
 }
 
+/* void mediaPreco(int vezes, Livro livros[]){
+    float soma_preco;
+    float media;
+    for(short int i = 1; i<=vezes;i++){
+        soma_preco += livros[i].preco;
+    }
+    media = soma_preco/vezes;
+    printf("A media dos preços dos livros é: %f",media);
+} */
+
 float receberPreco(){
     float preco;
     scanf("%f", &preco);
@@ -30,4 +40,16 @@ char *receberString(){
     char *nome = (char*)malloc(50*sizeof(char));
     scanf(" %49[^\n]", nome);
     return nome;
+}
+
+void imprimirVetor(int vezes, Livro livros[]){
+    for(int i = 0; i<vezes;i++){
+        printf("Titulo do livro [%d]: ", i);
+        printf("%s",livros[i].titulo);
+        printf("Autor do livro [%d]: ", i);
+        printf("%s",livros[i].autor);
+        printf("Preço do livro [%d]: ", i);
+        printf("%f",livros[i].preco);
+        printf("\n-------------------------------\n");
+    }
 }

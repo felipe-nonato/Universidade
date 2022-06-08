@@ -13,6 +13,7 @@ typedef struct
 
 // Functions()
 
-void adicionarLivros(unsigned short int vezes, Livro livros[vezes]);
+void adicionarLivros(int vezes, Livro livros[]);
+void imprimirVetor(int vezes, Livro livros[]);
 char *receberString();
 float receberPreco();

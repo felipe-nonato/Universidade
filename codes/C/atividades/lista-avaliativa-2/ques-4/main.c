@@ -9,5 +9,6 @@ int main()
     scanf("%d",&vezes);
     Livro livros[vezes];
     adicionarLivros(vezes,livros);
+    imprimirVetor(vezes,livros);
     return 0;
 }
