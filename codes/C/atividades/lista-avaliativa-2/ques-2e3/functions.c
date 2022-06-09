@@ -1,3 +1,5 @@
+// ----- QUESTÃO 2 e 3-----
+
 #include "head.h"
 #include <stdio.h>
 

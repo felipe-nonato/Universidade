@@ -1,3 +1,5 @@
+// ----- QUESTÃO 2 e 3-----
+
 struct Ponto {
     int x;
     int y;

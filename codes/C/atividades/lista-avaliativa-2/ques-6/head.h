@@ -1,3 +1,4 @@
+// ----- QUESTÃO 6 -----
 // structs
 typedef struct{
     int x;
