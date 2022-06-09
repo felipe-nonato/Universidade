@@ -20,3 +20,7 @@ void adicionarLivros(int vezes, Livro livros[vezes]);
 void mediaPreco(int vezes, Livro livros[vezes]);
 //Recebe o numero de livros e um vetor com os livros, e imprime o vetor mostrando os livros.
 void imprimirVetor(int vezes, Livro livros[vezes]);
+//Recebe o numero de livros e um vetor com os livros, e imprime os livros que eatão com preço acima da media.
+void maiorMedia(int vezes, Livro livros[vezes]);
+//Recebe nome a pesquisar, o numero de livros e um vetor com os livros, e retorna os livros da biblioteca que há este nome.
+void nomeNaBiblioteca(char *nome,int vezes, Livro livros[vezes]);

@@ -17,5 +17,6 @@ int main()
     Ponto *pontos = (Ponto*)malloc(2*sizeof(Ponto));
     recebePontos(&pontos[0],&pontos[1]);
     printf("A distancia entre os dois pontos [alocação dinamica]: %.2f\n",distancia(pontos[0],pontos[1]));
+    free(pontos);
     return 0;
 }
