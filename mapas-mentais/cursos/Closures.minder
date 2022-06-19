@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<minder version="1.13.1">
+  <theme name="dark" label="Escuro" index="4"/>
+  <styles>
+    <style level="0" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="1" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="2" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="3" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="4" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="5" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="6" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="7" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="8" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="9" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="10" isset="true" branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+  </styles>
+  <drawarea x="-155.74853680839567" y="197.24832235918666" scale="1.0680218921032065"/>
+  <images/>
+  <nodes>
+    <node id="0" posx="818.39563153495669" posy="131.77056802167272" width="85" height="40" side="left" fold="false" treesize="256" layout="Horizontal" group="false">
+      <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename posx="829.39563153495669" posy="142.77056802167272" maxwidth="200">
+        <text data="Closures"/>
+      </nodename>
+      <nodenote></nodenote>
+      <nodes>
+        <node id="6" posx="594.39563153495669" posy="131.77056802167272" width="160" height="40" side="left" fold="false" treesize="256" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="605.39563153495669" posy="142.77056802167272" maxwidth="200">
+            <text data="exemplo de c&#xF3;digo"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="8" posx="328.39563153495743" posy="23.770568021672716" width="202" height="256" side="left" fold="false" treesize="256" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="194" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="339.39563153495743" posy="34.770568021672716" maxwidth="194.95124816894531">
+                <text data="`&#10;let x = &quot;global&quot;&#10;&#10;const f =&gt; {&#10;   let x = &quot;local&quot;&#10;   const f2 =&gt; {&#10;      console.log(x)&#10;   }&#10;   return f2&#10;}&#10;&#10;const fun = f()&#10;`"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="14" posx="174.39563153495837" posy="57.770568021672716" width="90" height="40" side="left" fold="false" treesize="40" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="185.39563153495837" posy="68.770568021672716" maxwidth="200">
+                    <text data="R: &quot;local&quot;"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="16" posx="42.395631534958284" posy="97.770568021672716" width="222" height="148" side="left" fold="false" treesize="148" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="53.395631534958284" posy="108.77056802167272" maxwidth="200">
+                    <text data="Perceba que a fun&#xE7;&#xE3;o vai subindo em busca de um valor `x` . Logo ela precisa ser definido em um contexto lexico claro para a fun&#xE7;&#xE3;o n&#xE3;o retornar &quot;global&quot;."/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node id="1" posx="967.39563153495715" posy="131.77056802167272" width="88" height="40" side="right" fold="false" treesize="76" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="2" nodefill="true" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="978.39563153495715" posy="142.77056802167272" maxwidth="200">
+            <text data="O que &#xE9;?"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="7" posx="1119.3956315349628" posy="113.77056802167272" width="202" height="76" side="right" fold="false" treesize="76" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="64" branchradius="25" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="5" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="1130.3956315349628" posy="124.77056802167272" maxwidth="200">
+                <text data="A fun&#xE7;&#xE3;o quando criada, carrega com si o escopo na qual ela foi criada."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+  <groups/>
+  <stickers/>
+</minder>
