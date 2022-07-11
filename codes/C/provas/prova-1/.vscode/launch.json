@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-1",
-      "program": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-1/build/Debug/outDebug",
+      "cwd": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-1/questao_3",
+      "program": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-1/questao_3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
