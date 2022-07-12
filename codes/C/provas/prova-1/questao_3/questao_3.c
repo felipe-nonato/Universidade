@@ -16,7 +16,7 @@ CAUSAR CONFLITO DE NOME DE FUNÇÕES
 // ASSINATURAS
 
 /* 
-Troca uma letra por outra.
+Remove uma letra.
 Parametros: frase para remover caracter; posição do caracter a ser removido;
 Retorno: Vazio, imprime na tela a nova string, sem o caracter selecionado;
 */
@@ -47,4 +47,5 @@ void remover(char* frase, int pos)
         }
     }
     printf("%s\n\n", palavraNova);
+    free(palavraNova);
 }

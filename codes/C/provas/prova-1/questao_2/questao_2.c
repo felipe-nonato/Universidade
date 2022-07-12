@@ -37,4 +37,5 @@ void troca_letra (char *str, char original, char novo)
         }
     }
     printf("%s\n\n", palavraNova);
+    free(palavraNova);
 }
