@@ -38,6 +38,8 @@ int main()
 
     // Calculando união dos dois vetores
     int* uni = uniao(p1,tamanhoVetor1,p2,tamanhoVetor2);
+    free(p1);
+    free(p2);
     printf("Vetor resultante da união: ");
     for(int i = 0;i<tamanhoVetor1+tamanhoVetor2;i++)
     {
@@ -50,6 +52,7 @@ int main()
             printf("%d ", uni[i]);
         }
     }
+    free(uni);
     return 0;
 }
 
