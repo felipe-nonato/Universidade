@@ -5,9 +5,9 @@
 // ASSINATURAS
 
 /* 
-Troca uma letra por outra.
+Função: Troca uma letra por outra.
 Parametros: string com nome a fazer a troca; char antigo; char novo;
-Retorno: Vazio, imprime na tela a nova string, com os caracteres trocados;
+Retorna: Vazio, imprime na tela a nova string, com os caracteres trocados;
 */
 void troca_letra (char *str, char original, char novo);
 

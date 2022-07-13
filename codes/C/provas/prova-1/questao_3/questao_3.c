@@ -16,9 +16,9 @@ CAUSAR CONFLITO DE NOME DE FUNÇÕES
 // ASSINATURAS
 
 /* 
-Remove uma letra.
+Função: Remove uma letra.
 Parametros: frase para remover caracter; posição do caracter a ser removido;
-Retorno: Vazio, imprime na tela a nova string, sem o caracter selecionado;
+Retorna: Vazio, imprime na tela a nova string, sem o caracter selecionado;
 */
 void remover(char* frase, int pos);
 

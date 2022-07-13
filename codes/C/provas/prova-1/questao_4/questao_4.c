@@ -4,16 +4,16 @@
 // ASSINATURAS
 
 /* 
-Inverte uma string.
+Função: Inverte uma string.
 Parametros: frase a ser invertida, variavel para guardar frase invertida;
-Retorno: Vazio, imprime na tela a frase invertida;
+Retorna: Vazio, imprime na tela a frase invertida;
 */
 void inverte(char *frase, char *ifrase);
 
 /* 
-Inverte uma string.
+Função: Inverte uma string.
 Parametros: frase a ser invertida;
-Retorno: string - frase invertida;
+Retorna: string - frase invertida;
 */
 char *inverte2(char *frase);
 

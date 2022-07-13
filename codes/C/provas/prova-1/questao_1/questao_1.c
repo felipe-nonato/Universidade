@@ -3,9 +3,26 @@
 #include <string.h>
 
 // Assinatura de função
+
+/* 
+Função: Recebe e guarda os dados da matriz.
+Parametros: Numero de Linhas (que também é o numero de colunas), vetor.
+Retorna: void.
+*/
 void recebeVetor(int l,int vetor[l][l]);
-void imprimeVetor(int l,int vetor[l][l]);
+
+/* 
+Função: Soma os elementos que estão abaixo da diagonal principal da matriz.
+Parametros: Numero de Linhas (que também é o numero de colunas), matriz.
+Retorna: A soma dos elementos abaixo da diagonal principal da matriz.
+*/
 int somaAbaixo(int l,int vetor[l][l]);
+
+/* 
+Função: Soma os elementos que estão acima da diagonal principal da matriz.
+Parametros: Numero de Linhas (que também é o numero de colunas), matriz.
+Retorna: A soma dos elementos acima da diagonal principal da matriz.
+*/
 int somaAcima(int l,int vetor[l][l]);
 
 int main()
