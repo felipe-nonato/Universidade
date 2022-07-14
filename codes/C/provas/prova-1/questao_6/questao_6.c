@@ -17,7 +17,7 @@ Parametros: Titulo da coluna 1, Titulo da coluna 2,
 vetor com dados da coluna 1, vetor com dados da coluna 2;
 Retorna: void;
 */
-void imprimeHistograma(char* palavra1,char* palavra2,char** classificacoes,  int* frequencia);
+void histogramaFreq(char* palavra1,char* palavra2,char** classificacoes,  int* frequencia);
 
 /*
 Função: Classifica as palavras de uma string conforme o tamanho dela;
@@ -36,8 +36,12 @@ Função: Cria um vetor com as classificações do numero de palavras;
 Parametro: Variavel que ira armazenar a classificação;
 Retorna: void;
 */
-void criaVetoresClassificacao(char** classificacoes);
+void criaVetorClassificacao(char** classificacoes);
 
+void histogramaPesquisa(char* texto);
+
+
+// Main
 
 int main()
 
@@ -55,22 +59,20 @@ int main()
     }
 
     int* freq = classifica(texto);
-    criaVetoresClassificacao(classif);
-    imprimeHistograma("Comprimento de Palavras","Frequencia",classif,freq);
+    criaVetorClassificacao(classif);
+    histogramaFreq("Comprimento de Palavras","Frequencia",classif,freq);
+    free(classif);
+    free(freq);
+    printf("\n\n");
+    histogramaPesquisa(texto);
     printf("\n\n");
 
-    
     free(texto);
-
-
-    /* for(int i = 0;i<5;i++)
-    {
-        strcat(teste,"+");
-    }
-    printf("%s\n",teste); */
     return 0;
 }
 
+
+// Funções
 
 char *maiorPalavra(char* texto)
 {
@@ -122,12 +124,7 @@ char *maiorPalavra(char* texto)
 int* classifica(char* texto)
 {
     int contadorDeLetras = 0;
-    int conta0a3 = 0;
-    int conta3a6 = 0;
-    int conta6a9 = 0;
-    int conta9a12 = 0;
-    int contaMais12 = 0;
-    int* classificaco = (int*)calloc(5,sizeof(int));
+    int* classificacao = (int*)calloc(5,sizeof(int));
     char *palavraTeste = (char*)calloc(200,sizeof(char));
 
     
@@ -137,17 +134,11 @@ int* classifica(char* texto)
     {
         if(texto[i]==' ')
         {
-            if(contadorDeLetras>=0 && contadorDeLetras<3){conta0a3++;}
-            else if(contadorDeLetras>=3 && contadorDeLetras<6){conta3a6++;}
-            else if(contadorDeLetras>=6 && contadorDeLetras<9){conta6a9++;}
-            else if(contadorDeLetras>=9 && contadorDeLetras<=12){conta9a12++;}
-            else{contaMais12++;}
-
-            classificaco[0] = conta0a3;
-            classificaco[1] = conta3a6;
-            classificaco[2] = conta6a9;
-            classificaco[3] = conta9a12;
-            classificaco[4] = contaMais12;
+            if(contadorDeLetras>=0 && contadorDeLetras<3){classificacao[0]++;}
+            else if(contadorDeLetras>=3 && contadorDeLetras<6){classificacao[1]++;}
+            else if(contadorDeLetras>=6 && contadorDeLetras<9){classificacao[2]++;}
+            else if(contadorDeLetras>=9 && contadorDeLetras<=12){classificacao[3]++;}
+            else{classificacao[4]++;}
             
             for(size_t k = 0; k<strlen(palavraTeste);k++){ palavraTeste[k] = ' ';}
             contadorDeLetras = 0;
@@ -163,23 +154,17 @@ int* classifica(char* texto)
     }
     if(texto[i]=='\0')
         {
-            if(contadorDeLetras>=0 && contadorDeLetras<3){conta0a3++;}
-            else if(contadorDeLetras>=3 && contadorDeLetras<6){conta3a6++;}
-            else if(contadorDeLetras>=6 && contadorDeLetras<9){conta6a9++;}
-            else if(contadorDeLetras>=9 && contadorDeLetras<=12){conta9a12++;}
-            else{contaMais12++;}
-
-            classificaco[0] = conta0a3;
-            classificaco[1] = conta3a6;
-            classificaco[2] = conta6a9;
-            classificaco[3] = conta9a12;
-            classificaco[4] = contaMais12;
+            if(contadorDeLetras>=0 && contadorDeLetras<3){classificacao[0]++;}
+            else if(contadorDeLetras>=3 && contadorDeLetras<6){classificacao[1]++;}
+            else if(contadorDeLetras>=6 && contadorDeLetras<9){classificacao[2]++;}
+            else if(contadorDeLetras>=9 && contadorDeLetras<=12){classificacao[3]++;}
+            else{classificacao[4]++;}
         }
     free(palavraTeste);
-    return classificaco;
+    return classificacao;
 }
 
-void imprimeHistograma(char* palavra1,char* palavra2,char** classificacoes, int* frequencia)
+void histogramaFreq(char* palavra1,char* palavra2,char** classificacoes, int* frequencia)
 {
     printf("\n%s",palavra1);
     for (size_t i = 0; i < 35-strlen(palavra1); i++)
@@ -205,11 +190,98 @@ void imprimeHistograma(char* palavra1,char* palavra2,char** classificacoes, int*
     }   
 }
 
-void criaVetoresClassificacao(char** classificacoes)
+void criaVetorClassificacao(char** classificacoes)
 {
     strcpy(classificacoes[0],"0--3");
     strcpy(classificacoes[1],"3--6");
     strcpy(classificacoes[2],"6--9");
     strcpy(classificacoes[3],"9--12");
     strcpy(classificacoes[4],"Maiores que 12");
+}
+
+void histogramaPesquisa(char* texto)
+{
+    // Alocando memoria das palavras
+    char** palavraPesquisa = (char**)calloc(5,sizeof(char*));
+    for (size_t i = 0; i < 5; i++)
+    {
+       palavraPesquisa[i] = (char*)calloc(100,sizeof(char));
+    }
+
+    // Recebendo as palavras
+    printf("-----------------------------\n");
+    printf("Pesquisa!!\n\n");
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Digite a %dº palavra:",i+1);
+        scanf("%s",palavraPesquisa[i]);
+        palavraPesquisa[i] = 
+            realloc
+                (palavraPesquisa[i],
+                strlen(palavraPesquisa[i])*sizeof(char));
+    }
+    printf("-----------------------------\n");
+
+    
+    // Contando palavras da pesquisa
+
+    int contadorDeLetras = 0;
+    int* classificacao = (int*)calloc(5,sizeof(int));
+    char *palavraTeste = (char*)calloc(200,sizeof(char));
+
+    
+    int j = 0;
+    int i = 0;
+    while(texto[i]!='\0')
+    {
+        if(texto[i]==' ')
+        {
+            for (size_t i = 0; i < 5; i++)
+            {
+                if(strcmp(palavraPesquisa[i],palavraTeste)==0){classificacao[i]++;}
+            }
+            
+            
+            for(size_t k = 0; k<strlen(palavraTeste);k++){ palavraTeste[k] = ' ';}
+            contadorDeLetras = 0;
+            j=0;
+        }
+        else
+        {
+            palavraTeste[j] = texto[i];
+            contadorDeLetras++;
+            j++;
+        }
+        i++;
+    }
+    if(texto[i]=='\0')
+        {
+            for (size_t i = 0; i < 5; i++)
+            {
+                if(strcmp(palavraPesquisa[i],palavraTeste)==0){classificacao[i]++;}
+            }
+        }
+    free(palavraTeste);
+
+    // Imprimindo Histograma
+    char* palavra1 = "Palavra-Chave";
+    char* palavra2 = "Ocorrências";
+    printf("\n%s",palavra1);
+    for (size_t i = 0; i < 35-strlen(palavra1); i++)
+    {
+        printf(" ");
+    }
+    
+    printf("%s\n", palavra2);
+
+    for (size_t i = 0; i < 5; i++)
+    {
+        printf("%s",palavraPesquisa[i]);
+        for (size_t j = 0; j < 35-strlen(palavraPesquisa[i]); j++)
+        {
+            printf(" ");
+        }
+        printf("%d",classificacao[i]);
+        printf("\n");
+    }
 }
