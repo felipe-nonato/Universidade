@@ -38,6 +38,12 @@ Retorna: void;
 */
 void criaVetorClassificacao(char** classificacoes);
 
+/*
+Função: recebe palavras e pesquisa quantas vezes apareceram no texto,
+retorno em forma de histograma.
+Parametro: Texto para se fazer pesquisa;
+Retorna: void;
+*/
 void histogramaPesquisa(char* texto);
 
 
@@ -140,14 +146,19 @@ int* classifica(char* texto)
             else if(contadorDeLetras>=9 && contadorDeLetras<=12){classificacao[3]++;}
             else{classificacao[4]++;}
             
-            for(size_t k = 0; k<strlen(palavraTeste);k++){ palavraTeste[k] = ' ';}
             contadorDeLetras = 0;
+            palavraTeste = (char*)realloc(palavraTeste,contadorDeLetras*sizeof(char));
             j=0;
         }
         else
         {
-            palavraTeste[j] = texto[i];
+            if (contadorDeLetras==0)
+            {
+                palavraTeste = (char*)calloc(contadorDeLetras,sizeof(char));
+            }
             contadorDeLetras++;
+            palavraTeste = (char*)realloc(palavraTeste,contadorDeLetras*sizeof(char));
+            palavraTeste[j] = texto[i];
             j++;
         }
         i++;
@@ -225,8 +236,8 @@ void histogramaPesquisa(char* texto)
     
     // Contando palavras da pesquisa
 
-    int contadorDeLetras = 0;
     int* classificacao = (int*)calloc(5,sizeof(int));
+    int contadorDeLetras = 0;
     char *palavraTeste = (char*)calloc(200,sizeof(char));
 
     
@@ -242,14 +253,20 @@ void histogramaPesquisa(char* texto)
             }
             
             
-            for(size_t k = 0; k<strlen(palavraTeste);k++){ palavraTeste[k] = ' ';}
             contadorDeLetras = 0;
+            palavraTeste = (char*)realloc(palavraTeste,contadorDeLetras*sizeof(char));
             j=0;
         }
         else
         {
-            palavraTeste[j] = texto[i];
+            if (contadorDeLetras==0)
+            {
+                palavraTeste = (char*)calloc(contadorDeLetras,sizeof(char));
+            }
             contadorDeLetras++;
+            
+            palavraTeste = (char*)realloc(palavraTeste,contadorDeLetras*sizeof(char));
+            palavraTeste[j] = texto[i];
             j++;
         }
         i++;
@@ -261,7 +278,6 @@ void histogramaPesquisa(char* texto)
                 if(strcmp(palavraPesquisa[i],palavraTeste)==0){classificacao[i]++;}
             }
         }
-    free(palavraTeste);
 
     // Imprimindo Histograma
     char* palavra1 = "Palavra-Chave";
