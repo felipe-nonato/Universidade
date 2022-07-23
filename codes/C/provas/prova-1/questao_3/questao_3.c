@@ -26,7 +26,7 @@ void remover(char* frase, int pos);
 // FUNÇÃO MAIN
 int main()
 {
-    remover("Estrutura",1);
+    remover("Bom dia",2);
     remover("Luis Felipe",5);
     return 0;
 }
