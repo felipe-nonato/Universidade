@@ -227,9 +227,8 @@ int inserirPrimeiro( TListaEnc* lista, int elemento )
     // inserção em uma lista que está vazia
     if( listaVazia( *lista ) ) {
         // alocar o nó e testá-lo pra ver se tudo correu bem
-        if(
-            ( novo = aloca() ) == NULL ) return 0;
-
+        if(( novo = aloca() ) == NULL ) return 0;
+        
         novo->dado = elemento;
         novo->prox = 0;
         *lista = novo;
