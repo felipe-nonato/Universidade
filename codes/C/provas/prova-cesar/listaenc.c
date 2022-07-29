@@ -218,7 +218,7 @@ TListaEnc aloca(){ return (no*) malloc( sizeof( no ) ); }
 /********************* Resposta Questão 2 *********************/
 /********* Aluno: Luís Felipe Ferreira Tavares Nonato *********/
 
-/* letra [H] */
+// Letra [H]
 
 int inserirPrimeiro( TListaEnc* lista, int elemento )
 {
@@ -250,7 +250,7 @@ int inserirPrimeiro( TListaEnc* lista, int elemento )
    	}
 }
 
-/* letra [I] */
+// Letra [I]
 
 int inserirUltimo(TListaEnc* lista, int elemento)
 {
@@ -270,7 +270,7 @@ int inserirUltimo(TListaEnc* lista, int elemento)
         return 1;
    	}
 
-    
+// inserção em uma lista não vazia 
     aux = *lista;
 
     while( ( contador < tamanhoLista(*lista)) && ( aux != NULL ) ) {
@@ -291,3 +291,97 @@ int inserirUltimo(TListaEnc* lista, int elemento)
     return 1;
 }
 
+// Letra [J]
+
+int modificar(TListaEnc* lista, int pos, int dado)
+{
+    TListaEnc aux = NULL;
+    int contador = 1;
+
+    if ( listaVazia( *lista ) ) return 0;
+
+    // faz aux apontar para o primeiro elemento
+    aux = *lista;
+
+    //percorrendo até posição que sera trocada
+    while( ( contador <= pos - 1 ) && ( aux != NULL ) ){
+        aux = aux->prox;
+        contador++;
+    }
+
+    // se a posição foi maior que o esperado...
+    if ( aux == NULL ) return 0;
+
+    // então posso trocar o dado
+    aux->dado = dado;
+
+    return 1;
+}
+
+// Letra [K]
+
+int removerPrimeiro( TListaEnc* lista)
+{
+    TListaEnc prox = NULL;
+
+// verificando se a lista esta vazia
+    if( listaVazia( *lista ) ) return 0;
+
+/* 
+desalocando o primeiro elemento da lista,
+caso a lista não esteja vazia.
+*/
+    else
+    {
+        // verifica se alocação de novo deu certo
+        if( ( prox = aloca() ) == NULL ) return 0;
+        prox = *lista;
+
+        // "prox" recebe os dados do segundo elemento
+        prox = prox->prox;
+        
+        // desaloca a memoria do primeiro da lista
+        free(*lista);
+        // faz cabeça da lista apontar para o "novo primeiro" da lista
+        *lista = prox;
+        return 1;
+    }
+}
+
+// Letra [L]
+
+int removerUltimo( TListaEnc* lista)
+{
+    TListaEnc prox = NULL, anterior = NULL;
+    int contador = 1;
+    int tam = tamanhoLista(*lista);
+
+// verificando se a lista esta vazia
+    if( listaVazia( *lista ) ) return 0;
+
+/* 
+desalocando o primeiro elemento da lista,
+caso a lista não esteja vazia.
+*/
+    else
+    {
+        // verifica se alocação de novo deu certo
+        if( ( prox = aloca() ) == NULL ) return 0;
+        prox = *lista;
+
+        // "prox" recebe os dados do segundo elemento
+        while( ( contador <= tam - 1 ) && ( prox != NULL ) ){
+    	    anterior = prox;
+            prox = prox->prox;
+            contador++;
+        }
+        
+        if( tam == 1 ) *lista = prox->prox;
+        else anterior->prox = prox->prox;
+        // desaloca a memoria do ultimo elemento
+        free(prox);
+        return 1;
+
+
+    }
+}

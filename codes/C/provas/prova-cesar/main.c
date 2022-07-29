@@ -1,7 +1,5 @@
 #include "listaenc.h"
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
 
@@ -14,6 +12,11 @@ int main()
     /* testando minhas funções */
     inserirPrimeiro(&lista,3);
     inserirUltimo(&lista,15);
+    removerPrimeiro(&lista);
+    imprimir(lista);
+
+    modificar(&lista, 1, 60);
+    removerUltimo(&lista);
     imprimir(lista);
 
 

@@ -63,7 +63,21 @@ void imprimir ( TListaEnc lista );
 //*************** A interface de uso do TAD Lista Encadeada - Luís Felipe Ferreira ***********//
 
 /* Letra [H] */
+/* Inserir elemento na primeira posição */
 int inserirPrimeiro( TListaEnc* lista, int elemento );
 
 /* Letra [I]*/
+/* Inserir elemento na ultima posição */
 int inserirUltimo( TListaEnc* lista, int elemento );
+
+/* Letra [J] */
+/* modifica elemento pela posição */
+int modificar( TListaEnc* lista, int pos, int dado );
+
+/* Letra [K] */
+/* remove o primeiro elemento da lista */
+int removerPrimeiro( TListaEnc* lista);
+
+/* Letra [L] */
+/* remove o ultimo elemento da lista */
+int removerUltimo( TListaEnc* lista);
