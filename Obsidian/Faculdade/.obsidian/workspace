@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "P2/Educação Ambiental/Trabalho.md",
+            "file": "P2/Estrutura de dados/Arvore.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 198
+    "width": 198,
+    "collapsed": true
   },
   "right": {
     "id": "4f124436d167716c",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "P2/Educação Ambiental/Trabalho.md",
+                "file": "P2/Estrutura de dados/Arvore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +90,7 @@
   },
   "active": "50d537a2c8478e6e",
   "lastOpenFiles": [
+    "P2/Educação Ambiental/Trabalho.md",
     "P2/Estrutura de dados/Fila.md",
     "P2/Estrutura de dados/Dequer.md",
     "P2/Estrutura de dados/Pilha.md",
@@ -97,7 +99,6 @@
     "P2/sources/Pasted image 20220530111409.png",
     "P2/Sistemas Digitais/Contadores Assíncronos x Síncronos.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "P2/Sistemas Digitais/Divisão de Frequência e Contagem.md"
+    "Untitled.md"
   ]
 }
