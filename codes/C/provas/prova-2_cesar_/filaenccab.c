@@ -132,15 +132,6 @@ no* aloca( void ){ return ( (no*) malloc( sizeof(no) ) ); }
 
 //************ Implementação do TAD Fila Encadeada c/ Cabeça. - Luís Felipe Ferreira Tavares Nonato **************//
 
-int tamanhoArray(int* array_numeros)
-{
-    int cont = 0;
-    while (array_numeros[cont]!=0)
-    {
-        cont ++;
-    }
-    return cont;
-}
 
 int* dadosEmVetor(TFilaEncCab fila)
 {
@@ -153,12 +144,14 @@ int* dadosEmVetor(TFilaEncCab fila)
     }
     return vetor;
 }
+    
 
-int enfileirar_grupo( TFilaEncCab* fila, int* array_numeros)
+
+int enfileirar_grupo( TFilaEncCab* fila, int* array_numeros, int tamanho)
 {
-    for (int i = 0; i < tamanhoArray(array_numeros); i++){enfileirar(fila, array_numeros[i]);}
+    for (int i = 0; i < tamanho; i++){enfileirar(fila, array_numeros[i]);}
 
-    if (tamanhoFila(*fila)==tamanhoArray(array_numeros)){return 0;}
+    if (tamanhoFila(*fila)==tamanho){return 0;}
     else{ return 1;}
 }
 
@@ -173,8 +166,7 @@ TFilaEncCab* clonar( TFilaEncCab* origem )
     
 
     criarFila(clone);
-    enfileirar_grupo(clone,dadosEmVetor(*origem));
-
+    enfileirar_grupo(clone,dadosEmVetor(*origem),tamanhoFila(*origem));
     return clone;
     
 }

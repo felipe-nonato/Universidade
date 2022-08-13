@@ -53,7 +53,6 @@ int desenfileirar(TFilaEncCab *fila, int *valor );
 /* Exibir todos os elementos da fila */
 void imprimir(TFilaEncCab fila);
 
-
 /*--------------------------------------------------------------------------------------------------------------*/
 
 //############# A interface de uso do TAD Fila Encadeada Cabeça - Luís Felipe Ferreira ##############//
@@ -61,14 +60,13 @@ void imprimir(TFilaEncCab fila);
 /* Retorna os dados de uma fila em forma de vetor */
 int* dadosEmVetor(TFilaEncCab fila);
 
-/* Retorna o tamanho de um array */
-int tamanhoArray(int* array_numeros);
-
 /* Enfileira os dados de um array */
-int enfileirar_grupo( TFilaEncCab* fila, int* array_numeros);
+int enfileirar_grupo( TFilaEncCab* fila, int* array_numeros, int tamanho );
 
 /* clona uma fila e retorna o endereço de memoria do clone */
-TFilaEncCab* clonar( TFilaEncCab* origem );
+TFilaEncCab* clonar( TFilaEncCab* origem);
 
 /* Imprime o clone */
 void imprimir_clone( TFilaEncCab fila );
+
+int tamanhoVetor(int *vetor);

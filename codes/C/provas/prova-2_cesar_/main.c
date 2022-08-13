@@ -65,8 +65,9 @@ int main (void) {
 
     printf("\n\n------- Funções testes da avaliação -------\n");
 
-    int vetor[] = {1,2,3,4,5,6,7,8,9};
-    enfileirar_grupo(&fila,vetor);
+    int vetor[] = {5,7,8,3,1,2};
+    int len = sizeof(vetor)/sizeof(vetor[0]);
+    enfileirar_grupo(&fila,vetor,len);
     imprimir(fila);
 
     TFilaEncCab* clone = malloc(sizeof(TFilaEncCab));

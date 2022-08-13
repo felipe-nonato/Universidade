@@ -5,13 +5,17 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [],
+      "args": [
+        ""
+      ],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-2_cesar_",
-      "program": "/home/lipe/Documentos/repositorios/Faculdade/codes/C/provas/prova-2_cesar_/build/Debug/outDebug",
+      "cwd": "/home/lipe/Faculdade/codes/C/provas/prova-2_cesar_",
+      "environment": [],
+      "program": "/home/lipe/Faculdade/codes/C/provas/prova-2_cesar_/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
+      "externalConsole": false,
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
