@@ -1,3 +1,0 @@
-- Estrutura de dados duplamente encadeada.
-- Linker: Estrutura anterior e proxima estrutra.
-- Usa fila.
