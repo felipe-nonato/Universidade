@@ -18,4 +18,5 @@ Legenda
 ---
 
 → virtualenv {criação de ambientente virtual} /apt get/ _ O.S. linux _
+<br>
 → bibgrafo {representação computacional de grafos} /pip/ _ P.L. python _
