@@ -1,0 +1,1 @@
+Este diretorio possui todos os padrões para serem reutilizados de forma rapida e utilitaria.
