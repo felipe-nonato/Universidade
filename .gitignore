@@ -1,0 +1,29 @@
+# Ignora checkpoints automáticos do Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Ignora arquivos de histórico de jupyter
+*.pyc
+__pycache__/
+
+# Ignora arquivos ocultos do JupyterLab/VSCode
+/.jupyter
+/.vscode
+/.env
+/.venv
+.env
+.venv
+
+# Ignora arquivos de cache do Python
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.Python
+
+# Ignora arquivos temporários dos Notebooks
+*.nbconvert.ipynb
+
+# Ignora arquivos de configuração do notebook local
+.ipython/
