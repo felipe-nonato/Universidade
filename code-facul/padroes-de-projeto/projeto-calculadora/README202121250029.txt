@@ -1,0 +1,50 @@
+Aluno: Luís Felipe Ferreira Tavares Nonato
+Disciplina: Padrões de projetos
+
+
+· Linguagem de programação → C++
+· Versão do compilador → gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04)
+· IDE → Visual Studio Code (linux version) 1.99.3
+· Tipo de biblioteca: .o
+· Sistema operacional:
+
+             /////////////
+         /////////////////////
+      ///////*767////////////////
+    //////7676767676*//////////////       lipe@pop-os 
+   /////76767//7676767//////////////      ----------- 
+  /////767676///*76767///////////////     OS: Pop!_OS 22.04 LTS x86_64 
+ ///////767676///76767.///7676*///////    Host: A520M-DBRD 
+/////////767676//76767///767676////////   Kernel: 6.12.10-76061203-generic 
+//////////76767676767////76767/////////   Uptime: 1 day, 23 hours, 40 mins 
+///////////76767676//////7676//////////   Packages: 2134 (dpkg), 26 (flatpak) 
+////////////,7676,///////767///////////   Shell: bash 5.1.16 
+/////////////*7676///////76////////////   Resolution: 1920x1080 
+///////////////7676////////////////////   DE: Unity 
+ ///////////////7676///767////////////    WM: Mutter 
+  //////////////////////'////////////     WM Theme: Adwaita 
+   //////.7676767676767676767,//////      Theme: Adwaita [GTK2/3] 
+    /////767676767676767676767/////       Icons: Reversal-black-dark [GTK2/3] 
+      ///////////////////////////         Terminal: vscode 
+         /////////////////////            CPU: AMD Ryzen 5 4600G with Radeon Graphics (12) @ 4.308GHz 
+             /////////////                GPU: AMD ATI 04:00.0 Renoir 
+                                          Memory: 8103MiB / 15371MiB 
+
+
+
+· Descrição das Classes
+
+    Calculadora_202121250029
+
+        → Responsável por implementar as quatro operações matemáticas básicas: soma, subtração, multiplicação e divisão. 
+        Cada operação é disponibilizada como um método público, recebendo dois valores numéricos (double) como parâmetros 
+        e retornando o resultado da operação. Essa classe também verifica a tentativa de divisão por zero, lançando uma
+        exceção adequada quando necessário.
+
+    Cliente_202121250029
+
+        → Classe que atua como "usuário" da calculadora. 
+        Possui um método estático responsável por instanciar a classe Calculadora_202121250029
+        e realizar uma série de operações matemáticas, exibindo seus resultados no terminal. 
+        Também é responsável pelo ponto de entrada do sistema (função main), permitindo executar e 
+        demonstrar o funcionamento das operações da calculadora.
