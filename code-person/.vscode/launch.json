@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "HelloWord",
+            "request": "launch",
+            "mainClass": "HelloWord",
+            "projectName": "code-person_1ef59032"
+        },
+        {
             "type": "pwa-node",
             "request": "launch",
             "name": "Launch Program",
